@@ -66,6 +66,7 @@ Each slide's ID has a number. in the list bellow each number will make reference
    - the idea is to make a trigger based on the smiles that appear on the feed. to activate the trigger, **3 smiles** are needed
    - if this is not possible the slide should be taken out. if so, **notify Omer+Tal**
    - change the opacity of the icons for each new smile (until 3)
+   - use microsoft CV if nessesary
 
 1. `trigger = raise hand`  :: `#step-20`
    - here the app `app-demo-triggers` should be embedded
