@@ -114,9 +114,16 @@
         Plugins: For first slide, set the autoplay time to a custom 10 seconds.
         
     -->
-        <div id="logo" class="step" data-x="-2000" data-y="-2000" data-z="-3000" data-scale="1">
+        <div id="logo" class="step" data-x="-2000" data-y="-2000" data-z="0" data-scale="1">
             <img src="assets/logo-white.png">
-            <p>bridging the gap between digital and physical</p>
+            <p>The store of the future is social, <br>data-driven, interactive, self optimizing.
+            </p>
+            <br>
+            <hr>
+            <span>
+                a socially-aware AI platform that improves the customers’ experience, loyalty, brand engagement, and the overall communication elements at your stores.
+            </span>
+
         </div>
 
         <!--
@@ -134,70 +141,109 @@
         Using classic `id`-based links like `#step-2` makes these links usable also in fallback mode.
         
     -->
-        <div class="step" data-x="0" data-y="-1500">
+        <div class="step" data-x="500" data-y="-1500" data-z="0">
             imagine this...
             <div class="slide">
-                <q>here goes the <strong>story</strong></q>
+                <img src="/assets/story1.svg" alt="">
             </div>
         </div>
 
-        <div class="step" data-x="1700" data-y="-1500">
-            imagine this...
+        <div class="step" data-x="2200" data-y="-1500" data-z="0">
+            or this...
             <div class="slide">
-                <q>here goes the another <strong>story</strong></q>
+                <img src="/assets/story2.svg" alt="">
             </div>
         </div>
 
-        <div class="step" data-x="3400" data-y="-1500">
-            imagine this...
-            <div class="slide">
-                <q>here goes the last <strong>story</strong></q>
+        <div class="step" data-x="3900" data-y="-1500">
+            even this...
+            <div class="slide" id="story3">
+                <img src="/assets/story3.svg" alt="">
             </div>
+
         </div>
 
-        <!--
-        
-        This is an example of step element being scaled.
-        
-        Again, we use a `data-` attribute, this time it's `data-scale="4"`, so it means that this
-        element will be 4 times larger than the others.
-        From presentation and transitions point of view it means, that it will have to be scaled
-        down (4 times) to make it back to its correct size.
-        
-    -->
-        <div id="title" class="step" data-x="-2000" data-y="500" data-scale="4" data-rotate="90">
+        <div id="whoAreWe-5" class="step" data-x="-3800" data-y="3500" data-z="0" data-scale="4" data-rotate="90">
+            <img src="/assets/whoweare.svg" alt="">
             <h1 id="title-orange">WHO</h1>
             <h1 id="title-blue">ARE</h1>
             <h1 id="title-white">WE</h1>
         </div>
 
-        <!--
-        
-        This element introduces rotation.
-        
-        Notation shouldn't be a surprise. We use `data-rotate="90"` attribute, meaning that this
-        element should be rotated by 90 degrees clockwise.
-        
-    -->
-        <div id="its" class="step" data-x="850" data-y="3000" data-rotate="90" data-scale="5">
-            <p>It’s a <strong>presentation tool</strong> <br/> inspired by the idea behind <a href="http://prezi.com">prezi.com</a> <br/> and based on the <strong>power of CSS3 transforms and transitions</strong> in modern browsers.</p>
+        <div id="whatWeDo-6" class="step" data-x="-10000" data-y="1000" data-z="0" data-scale="4" data-rotate="90">
+            <video src="/assets/videoSlide6.mp4" autoplay loop muted></video>
+            <div class="rotated">
+                <h1 id="title-orange">WHAT</h1>
+                <h1 id="title-blue">WE</h1>
+                <h1 id="title-white">DO</h1>
+            </div>
+            <span>
+					An AI operating system to bridge offline to online.  <br>	Power any surface or screen. <br> Turn monologues into dialogues.
+				</span>
         </div>
 
-        <div id="big" class="step" data-x="3500" data-y="2100" data-rotate="180" data-scale="6">
-            <p>visualize your <b>big</b> <span class="thoughts">thoughts</span></p>
+
+        <div class="step" id="onOff-7" data-x="900" data-y="700" data-z="0" data-autoplay="2">
+            <p>converting foot traffic into sales <br> driving traffic to your store online and offline</p>
+            <strong>online</strong>
+            <img src="/assets/onlineoffline.svg" alt="">
+            <strong id="off">offline</strong>
         </div>
 
-        <!--
-        
-        And now it gets really exciting! We move into third dimension!
-        
-        Along with `data-x` and `data-y`, you can define the position on third (Z) axis, with
-        `data-z`. In the example below we use `data-z="-3000"` meaning that element should be
-        positioned far away from us (by 3000px).
-        
-    -->
-        <div id="tiny" class="step" data-x="2825" data-y="2325" data-rotate="300" data-scale="1">
-            <p>and <b>tiny</b> ideas</p>
+        <div class="step" id="howItWorks-8" data-x="900" data-y="1000" data-z="-1500">
+            <h1><span>How does it </span>work</h1>
+            <img src="/assets/howitworks.svg" alt="">
+        </div>
+
+        <div class="step" id="displays-8" data-x="400" data-y="1000" data-z="-2220" data-autoplay=".1">
+
+        </div>
+
+        <div class="step" id="displays-9" data-x="400" data-y="900" data-z="-3000">
+            <h1>Display agnostic</h1>
+            <video src="/assets/displays.mp4" autoplay loop></video>
+        </div>
+
+        <div class="step" id="displays-10" data-x="400" data-y="1000" data-z="-2220" data-autoplay=".1">
+        </div>
+
+        <div class="step" id="displays-11" data-x="900" data-y="1000" data-z="-1500">
+        </div>
+
+        <div class="step" id="conversions-12" data-x="3000" data-y="1200" data-z="-3000" data-rotate="90">
+            <h1>Increase Conversions</h1>
+            with relevancy, agility, engagement and data
+            <br><br>
+            <div class="convExamples" id="ce1">
+                <img src="/assets/aaa.png" alt="">
+                <span>
+               <h1> Virtual 24/7 operations at your digital storefront</h1>
+               Promotional agility <br>
+               Actual Window Shopping (POS) <br>
+               Conversational touch point
+            </span>
+            </div>
+            <div class="convExamples" id="ce2">
+                <video src="/assets/skeleton.mp4" autoplay loop></video> <span>
+                        <h1> Drive-To-Engage with gamification
+                            </h1>
+                            Initiate engagements <br>
+                            Targeted content <br>
+                            Gamification 
+                </span>
+            </div>
+            <div class="convExamples" id="ce3">
+                <img src="/assets/bbb.png" alt="">
+                <span>
+                       <h1> Provide detailed real-time data to impact performance
+
+                        </h1>
+                        Location & content performance <br>
+                        Customer behavior & preferences 
+
+                      
+                    </span>
+            </div>
         </div>
 
         <!--
@@ -224,23 +270,6 @@
         See src/plugins/rel/README.md for more information.
         
     -->
-        <div id="ing" class="step" data-x="3500" data-y="-850" data-z="0" data-rotate="270" data-scale="6">
-            <p>by <b class="positioning">positioning</b>, <b class="rotating">rotating</b> and <b class="scaling">scaling</b> them on an infinite canvas</p>
-        </div>
-
-        <div id="imagination" class="step" data-x="6700" data-y="-300" data-scale="6">
-            <p>the only <b>limit</b> is your <b class="imagination">imagination</b></p>
-        </div>
-
-        <div id="source" class="step" data-x="6300" data-y="2000" data-rotate="20" data-scale="4">
-            <p>want to know more?</p>
-            <q><a href="http://github.com/impress/impress.js">use the source</a>, Luke!</q>
-        </div>
-
-        <div id="one-more-thing" class="step" data-x="6000" data-y="4000" data-scale="2">
-            <p>one more thing...</p>
-        </div>
-
         <!--
         
         And the last one shows full power and flexibility of impress.js.
