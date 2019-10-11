@@ -118,12 +118,6 @@
             <img src="assets/logo-white.png">
             <p>The store of the future is social, <br>data-driven, interactive, self optimizing.
             </p>
-            <br>
-            <hr>
-            <span>
-                a socially-aware AI platform that improves the customers’ experience, loyalty, brand engagement, and the overall communication elements at your stores.
-            </span>
-
         </div>
 
         <!--
@@ -142,23 +136,28 @@
         
     -->
         <div class="step" data-x="500" data-y="-1500" data-z="0">
-            imagine this...
+            Emotions as triggers, “Try on” with mixed reality
             <div class="slide">
                 <img src="/assets/story1.svg" alt="">
             </div>
         </div>
 
         <div class="step" data-x="2200" data-y="-1500" data-z="0">
-            or this...
+            Precision marketing
             <div class="slide">
                 <img src="/assets/story2.svg" alt="">
             </div>
         </div>
 
         <div class="step" data-x="3900" data-y="-1500">
-            even this...
-            <div class="slide" id="story3">
+            <div id="gamif">
+                Gamification
+            </div>
+            <div class="slide story3" id="story3-a">
                 <img src="/assets/story3.svg" alt="">
+            </div>
+            <div class="slide story3" id="story3-b">
+                ~ camera view here ~
             </div>
 
         </div>
@@ -211,9 +210,10 @@
         </div>
 
         <div class="step" id="conversions-12" data-x="3000" data-y="1200" data-z="-3000" data-rotate="90">
-            <h1>Increase Conversions</h1>
-            with relevancy, agility, engagement and data
-            <br><br>
+            <div id="title-12">
+                <h1>Increase Conversions</h1>
+                with relevancy, agility, engagement and data
+            </div>
             <div class="convExamples" id="ce1">
                 <img src="/assets/aaa.png" alt="">
                 <span>
@@ -235,19 +235,62 @@
             <div class="convExamples" id="ce3">
                 <img src="/assets/bbb.png" alt="">
                 <span>
-                       <h1> Provide detailed real-time data to impact performance
-
-                        </h1>
-                        Location & content performance <br>
-                        Customer behavior & preferences 
-
+                    <h1> Provide detailed real-time data to impact performance
+                        
+                    </h1>
+                    Location & content performance <br>
+                    Customer behavior & preferences 
+                    
                       
                     </span>
             </div>
         </div>
+        <div class="step" id="conversions-13" data-x="3130" data-y="1200" data-z="-3600" data-rotate="90">
+        </div>
+        <div class="step" id="conversions-14" data-x="2900" data-y="1200" data-z="-3600" data-rotate="90">
+        </div>
+        <div class="step" id="conversions-15" data-x="2670" data-y="1200" data-z="-3600" data-rotate="90">
+        </div>
+
+        <div id="caseOne-16" class="step" data-x="6100" data-y="4300" data-z="00" data-rotate-x="0" data-rotate-y="0" data-scale="2" data-rotate="0">
+            Moet Hennessy
+            <video src="/assets/XP-MH.mp4" autoplay loop></video>
+        </div>
+
+        <div id="caseOne-17" class="step" data-x="3600" data-y="4300" data-z="700" data-rotate-x="0" data-rotate-y="30" data-scale="2" data-rotate="0">
+            Kiehl's
+            <video src="/assets/XP-kie.mp4" autoplay loop></video>
+        </div>
+
+        <div id="caseOne-18" class="step" data-x="1750" data-y="4300" data-z="2500" data-rotate-x="0" data-rotate-y="60" data-scale="2" data-rotate="0">
+            Cushman & Wakefield
+            <video src="/assets/XP-3rd.mp4" autoplay loop></video>
+        </div>
+
+
+        <div id="demo-19" class="step" data-x="3000" data-y="1000" data-z="6000" data-scale="6">
+            <div class="slide">
+                ~ demos go here ~ <br> <br> If possible add a trigger for <strong>3 smiles</strong> <br> show one ":)" per smile
+                <br><br><br><br><br>
+                <h1>:) :) :)</h1>
+            </div>
+        </div>
+
+        <div id="demo-20" class="step" data-x="3000" data-y="6000" data-z="6500" data-scale="6">
+            <div class="slide">
+                demo 2 here
+            </div>
+        </div>
+
+
+        <div id="demo-21" class="step" data-x="3000" data-y="11000" data-z="7000" data-scale="6">
+            <div class="slide">
+                demo here
+            </div>
+        </div>
 
         <!--
-        
+            
         This step here doesn't introduce anything new when it comes to data attributes, but you
         should notice in the demo that some words of this text are being animated.
         It's a very basic CSS transition that is applied to the elements when this step element is
@@ -282,10 +325,6 @@
         as `data-rotate` (these two are basically aliases).
         
     -->
-        <div id="its-in-3d" class="step" data-x="6200" data-y="4300" data-z="-100" data-rotate-x="-40" data-rotate-y="10" data-scale="2">
-            <p><span class="have">have</span> <span class="you">you</span> <span class="noticed">noticed</span> <span class="its">it’s</span> <span class="in">in</span> <b>3D<sup>*</sup></b>?</p>
-            <span class="footnote">* beat that, prezi ;)</span>
-        </div>
 
         <!--
         
@@ -302,8 +341,7 @@
         CSS transfrom docs: https://developer.mozilla.org/en/CSS/transform
         
     -->
-        <div id="overview" class="step" data-x="3000" data-y="1500" data-z="0" data-scale="10">
-        </div>
+
 
     </div>
 
@@ -312,7 +350,7 @@
     For now, I'll just tell you that this adds some graphical controls to navigate the
     presentation. In the CSS file you can style them as you want. We've put them bottom right.
 -->
-    <div id="impress-toolbar"></div>
+    <!-- <div id="impress-toolbar"></div> -->
 
     <!--
     
@@ -338,9 +376,9 @@
     Just sayin' ;)
     
 -->
-    <div class="hint">
+    <!-- <div class="hint">
         <p>Use a spacebar or arrow keys to navigate. <br/> Press 'P' to launch speaker console.</p>
-    </div>
+    </div> -->
     <script>
         if ("ontouchstart" in document.documentElement) {
             document.querySelector(".hint").innerHTML = "<p>Swipe left or right to navigate</p>";

@@ -286,8 +286,24 @@ a:focus {
     text-align: center;
 }
 
-#story3 img {
-    height: 500px;
+.story3 {
+    width: 55%;
+    float: left;
+    margin: .5%;
+}
+
+.story3 img {
+    height: 100%;
+}
+
+#gamif {
+    width: 100%;
+}
+
+#story3-b {
+    background-color: #001274;
+    color: #EEE;
+    width: 23%;
 }
 
 .slide q {
@@ -440,6 +456,7 @@ a:focus {
 #displays-9 video {
     transform: translate(-50%);
     position: relative;
+    width: 100%;
     left: 50%;
     -webkit-mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
     border-radius: 30px;
@@ -462,16 +479,32 @@ h1 {
     font-size: 80px;
 }
 
+#title-12 {
+    opacity: 1;
+    transition: 2s;
+}
+
 #conversions-12 {
     text-align: center;
     opacity: 0;
     height: 80vh;
+    transition: 2s;
     /* background-color: pink; */
 }
 
 #conversions-12.present {
     opacity: 1;
     /* background-color: pink; */
+}
+
+#conversions-12.past {
+    /* display: inline; */
+    /* height: 100%; */
+    opacity: 1;
+}
+
+#conversions-12.past #title-12 {
+    opacity: 0;
 }
 
 #conversions-12 h1 {
@@ -489,11 +522,11 @@ h1 {
 #conversions-12 span {
     float: right;
     width: 66%;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 #conversions-12 span h1 {
-    font-size: 25px;
+    font-size: 23px;
     padding-bottom: 2%;
 }
 
@@ -502,29 +535,22 @@ h1 {
     margin: auto;
     background-color: #ff5039;
     box-shadow: -3px 2px 20px #001274;
-    width: 60%;
-    padding: 3%;
+    width: 40%;
+    padding: 2%;
     border-radius: 25px;
-    height: 230px;
-    margin-bottom: 2%;
-    position: absolute;
+    height: 150px;
+    margin-top: 2%;
+    /* position: absolute; */
 }
 
-#ce1 {
-    position: inherit;
+#caseOne-16 video,
+#caseOne-17 video,
+#caseOne-18 video {
+    width: 100%;
 }
 
-#ce2 {
-    position: inherit;
-    top: 8em;
-    left: 7.5em;
-}
-
-#ce3 {
-    position: inherit;
-    /* top: -10px; */
-    top: 10em;
-    left: 14em;
+#demo-19 .slide {
+    background-color: #6680ff;
 }
 
 
@@ -650,6 +676,9 @@ h1 {
     `impress-on-` class.
 */
 
+.impress-on-conversions-13 .step,
+.impress-on-conversions-14 .step,
+.impress-on-conversions-15 .step,
 .impress-on-displays-8 .step,
 .impress-on-displays-10 .step,
 .impress-on-displays-11 .step {
