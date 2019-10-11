@@ -31,7 +31,7 @@ Each slide's ID has a number. in the list bellow each number will make reference
    - there is no CV trigger. the slide has "autoplay" make sure it work.
 
 1. `trigger = raise hand`  :: `#howItWorks-8`
-   8. there is a zoomed-in slide called `displays-8`. It has a timer and needs no trigger (like **7**)
+   - **8.**  there is a zoomed-in slide called `displays-8`. It has a timer and needs no trigger (like **7**)
 
 1. `trigger = raise hand`  :: `#displays-9`
    - make sure the video plays consistently
